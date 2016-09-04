@@ -62,6 +62,8 @@ print("P =\n{}".format(P))
 print("\n===== answers =====\n")
 
 # assignment 1.1.2 a
+A = M * N + N
+print("A = MN + N =\n{}".format(A))
 
 # assignment 1.1.2 b
 
