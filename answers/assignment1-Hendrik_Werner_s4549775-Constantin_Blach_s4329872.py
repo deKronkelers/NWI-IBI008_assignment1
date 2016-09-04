@@ -2,6 +2,7 @@
 # author: Constantin Blach // s4329872
 import numpy
 from numpy import array
+from numpy import matrix
 
 print("\n========== Assignment 1.1.1 ==========\n")
 
@@ -37,3 +38,13 @@ r = 2 * w - 5
 print("r = 2w - 5 = {}".format(r))
 
 print("\n========== Assignment 1.1.2 ==========\n")
+
+# assignment 1.1.2
+M = matrix("1 2 3; 6 8 4; 6 7 5")
+print("M =\n{}".format(M))
+
+N = matrix("4 6; 7 2; 5 1")
+print("N =\n{}".format(N))
+
+P = matrix("2 5; 5 5")
+print("P =\n{}".format(P))
