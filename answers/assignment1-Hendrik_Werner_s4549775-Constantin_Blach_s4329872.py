@@ -18,3 +18,7 @@ print("s = {}".format(s))
 
 z = matrix(".7 1.0 1.3 1.6 1.9 2.2 2.5 2.8")
 print("z = {}".format(z))
+
+# assignment 1.1.1 a
+v = 3 * x + y
+print("v = {}".format(v))
