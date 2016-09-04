@@ -21,7 +21,7 @@ print("z = {}".format(z))
 
 # assignment 1.1.1 a
 v = 3 * x + y
-print("v = {}".format(v))
+print("v = 3x + y = {}".format(v))
 
 # assignment 1.1.1 d
 z = z - 1
