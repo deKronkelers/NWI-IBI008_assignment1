@@ -23,6 +23,9 @@ print("z = {}".format(z))
 v = 3 * x + y
 print("v = 3x + y = {}".format(v))
 
+# assignment 1.1.1 b
+print("The dot product of x and y is {}".format(numpy.dot(x, y)))
+
 # assignment 1.1.1 d
 z = z - 1
 print("z = {}".format(z))
