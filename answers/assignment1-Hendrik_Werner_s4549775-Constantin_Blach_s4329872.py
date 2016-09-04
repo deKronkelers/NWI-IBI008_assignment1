@@ -35,3 +35,5 @@ print("z = z - 1 = {}".format(z))
 # assignment 1.1.1 f
 r = 2 * w - 5
 print("r = 2w - 5 = {}".format(r))
+
+print("\n========== Assignment 1.1.2 ==========\n")
