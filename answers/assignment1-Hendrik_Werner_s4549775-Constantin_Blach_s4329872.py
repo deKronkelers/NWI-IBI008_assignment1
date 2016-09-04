@@ -66,6 +66,8 @@ A = M * N + N
 print("A = MN + N =\n{}".format(A))
 
 # assignment 1.1.2 b
+B = numpy.transpose(N) * M
+print("B = transpose(N) * M =\n{}".format(B))
 
 # assignment 1.1.2 c
 
