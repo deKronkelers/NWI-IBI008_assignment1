@@ -47,6 +47,8 @@ print("r = 2w - 5 = {}".format(r))
 
 print("\n========== Assignment 1.1.2 ==========\n")
 
+print("===== setup =====\n")
+
 # assignment 1.1.2
 M = matrix("1 2 3; 6 8 4; 6 7 5")
 print("M =\n{}".format(M))
@@ -56,6 +58,8 @@ print("N =\n{}".format(N))
 
 P = matrix("2 5; 5 5")
 print("P =\n{}".format(P))
+
+print("\n===== answers =====\n")
 
 # assignment 1.1.2 a
 
