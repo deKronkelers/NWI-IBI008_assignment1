@@ -29,9 +29,13 @@ print("v = 3x + y = {}".format(v))
 # assignment 1.1.1 b
 print("The dot product of x and y is {}".format(numpy.dot(x, y)))
 
+# assignment 1.1.1 c
+
 # assignment 1.1.1 d
 z = z - 1
 print("z = z - 1 = {}".format(z))
+
+# assignment 1.1.1 e
 
 # assignment 1.1.1 f
 r = 2 * w - 5
@@ -48,3 +52,13 @@ print("N =\n{}".format(N))
 
 P = matrix("2 5; 5 5")
 print("P =\n{}".format(P))
+
+# assignment 1.1.2 a
+
+# assignment 1.1.2 b
+
+# assignment 1.1.2 c
+
+# assignment 1.1.2 d
+
+# assignment 1.1.2 e
