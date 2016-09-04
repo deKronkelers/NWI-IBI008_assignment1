@@ -6,6 +6,8 @@ from numpy import matrix
 
 print("\n========== Assignment 1.1.1 ==========\n")
 
+print("===== setup =====\n")
+
 # assignment 1.1.1
 x = array([6, 7, 8, 9, 10, 11, 12])
 print("x = {}".format(x))
@@ -21,6 +23,8 @@ print("s = {}".format(s))
 
 z = array([.7, 1.0, 1.3, 1.6, 1.9, 2.2, 2.5, 2.8])
 print("z = {}".format(z))
+
+print("\n===== answers =====\n")
 
 # assignment 1.1.1 a
 v = 3 * x + y
