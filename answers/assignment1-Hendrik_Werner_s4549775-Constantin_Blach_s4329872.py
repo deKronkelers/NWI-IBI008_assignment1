@@ -1,8 +1,7 @@
 # author: Hendrik Werner // s4549775
 # author: Constantin Blach // s4329872
 import numpy
-from numpy import array
-from numpy import matrix
+from numpy import array, matrix
 
 print("\n========== Assignment 1.1.1 ==========\n")
 
