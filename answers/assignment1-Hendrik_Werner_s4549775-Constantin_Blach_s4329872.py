@@ -62,17 +62,18 @@ print("\n===== answers =====\n")
 
 # assignment 1.1.2 a
 A = M * N + N
-print("A = MN + N =\n{}".format(A))
+print("(a) A = MN + N =\n{}".format(A))
 
 # assignment 1.1.2 b
 B = numpy.transpose(N) * M
-print("B = transpose(N) * M =\n{}".format(B))
+print("(b) B = transpose(N) * M =\n{}".format(B))
 
 # assignment 1.1.2 c
 C = numpy.linalg.inv(P) + P
-print("C = P^-1 + P =\n{}".format(C))
+print("(c) C = P^-1 + P =\n{}".format(C))
 
 # assignment 1.1.2 d
+print("(d) ", end="")
 try:
     print("AC (C + B) =\n{}".format(A * C * (C + B)))
 except ValueError as e:
