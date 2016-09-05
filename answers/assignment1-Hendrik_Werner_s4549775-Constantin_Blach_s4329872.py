@@ -27,22 +27,22 @@ print("\n===== answers =====\n")
 
 # assignment 1.1.1 a
 v = 3 * x + y
-print("v = 3x + y = {}".format(v))
+print("(a) v = 3x + y = {}".format(v))
 
 # assignment 1.1.1 b
-print("The dot product of x and y is {}".format(numpy.dot(x, y)))
+print("(b) The dot product of x and y is {}".format(numpy.dot(x, y)))
 
 # assignment 1.1.1 c
 
 # assignment 1.1.1 d
 z = z - 1
-print("z = z - 1 = {}".format(z))
+print("(d) z = z - 1 = {}".format(z))
 
 # assignment 1.1.1 e
 
 # assignment 1.1.1 f
 r = 2 * w - 5
-print("r = 2w - 5 = {}".format(r))
+print("(f) r = 2w - 5 = {}".format(r))
 
 print("\n========== Assignment 1.1.2 ==========\n")
 
