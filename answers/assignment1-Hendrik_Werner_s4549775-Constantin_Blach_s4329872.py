@@ -39,6 +39,12 @@ z = z - 1
 print("(d) z = z - 1 = {}".format(z))
 
 # assignment 1.1.1 e
+print("(e) Replacing the last 3 values of x with 4...")
+pos = 1
+while pos <= 3:
+    x[-pos] = 4
+    pos += 1
+print("\tx = {}".format(x))
 
 # assignment 1.1.1 f
 r = 2 * w - 5
