@@ -87,9 +87,9 @@ except ValueError as e:
 
 # assignment 1.1.2 e
 print("(e) ", end="")
-print("eigvalues(M) = {}\neigenvectors(M) =\n{}".format(*numpy.linalg.eig(M)))
+print("eigenvalues(M) = {}\neigenvectors(M) =\n{}".format(*numpy.linalg.eig(M)))
 try:
-    print("eigvalues(N) = {}\neigenvectors(N) =\n{}".format(*numpy.linalg.eig(N)))
+    print("eigenvalues(N) = {}\neigenvectors(N) =\n{}".format(*numpy.linalg.eig(N)))
 except numpy.linalg.LinAlgError as e:
     print("eig(N) could not be computed: {}".format(e))
-print("eigvalues(P) = {}\neigenvectors(P) =\n{}".format(*numpy.linalg.eig(P)))
+print("eigenvalues(P) = {}\neigenvectors(P) =\n{}".format(*numpy.linalg.eig(P)))
