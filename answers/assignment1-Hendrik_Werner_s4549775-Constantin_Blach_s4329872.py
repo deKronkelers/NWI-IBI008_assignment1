@@ -70,6 +70,8 @@ B = numpy.transpose(N) * M
 print("B = transpose(N) * M =\n{}".format(B))
 
 # assignment 1.1.2 c
+C = numpy.linalg.inv(P) + P
+print("C = P^-1 + P =\n{}".format(C))
 
 # assignment 1.1.2 d
 
