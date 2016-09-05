@@ -73,5 +73,9 @@ C = numpy.linalg.inv(P) + P
 print("C = P^-1 + P =\n{}".format(C))
 
 # assignment 1.1.2 d
+try:
+    print("AC (C + B) =\n{}".format(A * C * (C + B)))
+except ValueError as e:
+    print("AC (C + B) could not be computed: {}".format(e))
 
 # assignment 1.1.2 e
