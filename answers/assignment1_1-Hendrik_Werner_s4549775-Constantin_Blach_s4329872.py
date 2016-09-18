@@ -33,6 +33,8 @@ print("(a) v = 3x + y = {}".format(v))
 print("(b) The dot product of x and y is {}".format(numpy.dot(x, y)))
 
 # assignment 1.1.1 c
+t = numpy.pi * (s + 4)
+print("(c) t = pi * (s + 4) = {}".format(t))
 
 # assignment 1.1.1 d
 z = z - 1
