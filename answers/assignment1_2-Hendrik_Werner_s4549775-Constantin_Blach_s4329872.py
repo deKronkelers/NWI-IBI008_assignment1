@@ -15,7 +15,7 @@ with xlrd.open_workbook(filename="nanonose.xls") as book:
     print(data)
 
     # assignment 1.2.1 b
-    data_plot = scatter(data[:, 0], data[:, 1])
+    scatter(data[:, 0], data[:, 1])
     show()
 
     # assignment 1.2.2 c
