@@ -36,3 +36,6 @@ with xlrd.open_workbook(filename="nanonose.xls") as book:
     Z1 = Y * V[:, 1]
     scatter(Z0, Z1)
     show()
+
+    # assignment 1.2.2 e
+    print("Second PC direction = {}".format(V[1]))
