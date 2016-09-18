@@ -29,3 +29,10 @@ with xlrd.open_workbook(filename="nanonose.xls") as book:
 
     plot(pms)
     show()
+
+    # assignment 1.2.2 d
+    V = linalg.transpose(Vt)
+    Z0 = Y * V[:, 0]
+    Z1 = Y * V[:, 1]
+    scatter(Z0, Z1)
+    show()
