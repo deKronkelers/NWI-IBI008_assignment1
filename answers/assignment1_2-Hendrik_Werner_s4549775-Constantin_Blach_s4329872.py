@@ -4,8 +4,8 @@
 import xlrd
 from pylab import *
 
-# assignment 1.2.1
 with xlrd.open_workbook(filename="nanonose.xls") as book:
+    # assignment 1.2.1 a
     sheet = book.sheet_by_index(0)
     offset_row = 2
     offset_col = 3
@@ -14,6 +14,6 @@ with xlrd.open_workbook(filename="nanonose.xls") as book:
         data[row] = sheet.row_values(rowx=offset_row + row, start_colx=offset_col)
     print(data)
 
-    # assignment 1.2.2
+    # assignment 1.2.1 b
     data_plot = scatter(data[:, 0], data[:, 1])
     show()
