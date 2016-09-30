@@ -22,18 +22,18 @@ with xlrd.open_workbook(filename="nanonose.xls") as book:
     means = array([data[:, col].mean() for col in range(8)])
     Y = data - np.ones((90, 1)) * means
     U, s, Vt = linalg.svd(Y)
+    V = np.transpose(Vt)
     sum_of_squares = sum([elem ** 2 for elem in s])
     pms = [(s[m] ** 2)/ sum_of_squares for m in range(8)]
-    print("Pricipal Components = {}".format(s))
+    print("Pricipal Components = {}".format(np.dot(Y, V)))
     print("The first 3 PCs account for {}% of variation.".format(sum(pms[:3]) * 100))
 
     plot(pms)
     show()
 
     # assignment 1.2.2 d
-    V = linalg.transpose(Vt)
-    Z0 = Y * V[:, 0]
-    Z1 = Y * V[:, 1]
+    Z0 = np.dot(Y, V[:, 0])
+    Z1 = np.dot(Y, V[:, 1])
     scatter(Z0, Z1)
     show()
 
